@@ -1,0 +1,4 @@
+# Build sources / internal — not part of the published site
+portal-content/
+client-brief.md
+images/_gen/
