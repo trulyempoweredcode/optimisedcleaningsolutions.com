@@ -96,3 +96,24 @@
 /* Trust/feature icon lift — layered brand-tinted shadow */
 .section--alt .card__icon,
 .card__icon { box-shadow: 0 6px 18px var(--brand-navy-glow); }
+
+
+/* === BACKFILL: rules dropped by template update to v1.7.5 ===
+   2 rule(s) preserved automatically because their classes are
+   still referenced in this site's HTML. Move into proper site partials
+   if you want, but do NOT delete unless you've also removed the markup.
+   ===================================================== */
+
+.split__text .btn,
+.split__content .btn {
+  margin-top: var(--space-lg);
+}
+
+@media (min-width: 768px) {
+  .split--reverse .split__text,
+    .split--reverse .split__content {
+      order: 2;
+    }
+}
+
+/* === END BACKFILL === */
