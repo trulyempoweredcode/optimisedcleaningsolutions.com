@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://optimisedcleaningsolutions.com/sitemap.xml
+Sitemap: https://www.optimisedcleaningsolutions.com/sitemap.xml
